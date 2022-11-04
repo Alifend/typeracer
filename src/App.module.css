@@ -1,0 +1,11 @@
+.container {
+  background: #111;
+  height: calc(100vh - 80px);
+  width: 100%;
+  padding-block: 2rem;
+  padding-inline: clamp(0rem, -5.1724rem + 25.8621vw, 9.375rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

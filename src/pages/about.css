@@ -1,0 +1,30 @@
+.about-box,
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: min(100%, 800px);
+}
+.about-box {
+  display: flex;
+  padding: 1.5rem;
+  flex-wrap: wrap;
+  background-color: #333;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  color: #fff;
+  align-items: center;
+}
+.about-box p {
+  margin: 10px;
+  font-size: 20px;
+}
+.icon-laptop {
+  font-size: 300%;
+  margin: 10px;
+}
+.icon-alert {
+  font-size: 300%;
+  color: #ff0;
+}
